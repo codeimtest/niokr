@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+
+	<title>Центр НИКОР</title>
+
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<link rel="icon" href="images/favicon.png">
+	<meta property="og:image" content="images/preview.jpg">
+
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-reboot.min.css">
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="libs/swiper/swiper-bundle.min.css">
+	<link rel="stylesheet" href="libs/fancybox/fancybox.min.css">
+
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+
+	<script src="libs/jquery/jquery-3.6.0.min.js" defer></script>
+	<script src="libs/swiper/swiper-bundle.min.js" defer></script>
+	<script src="libs/fancybox/fancybox.umd.js" defer></script>
+	<script src="libs/input-mask/jquery.maskedinput.min.js"></script>
+
+	<script src="js/common.js" defer></script>
+
+</head>
+
+<body>
+
+	<div class="app">
+		<header>
+			<div class="container">
+				<div class="row justify-content-between align-items-center">
+					<div class="col-lg-3 col-5">
+						<a href="#" class="logo">
+							<svg width="107" height="48" viewBox="0 0 107 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd"
+									d="M31.3776 12.9199C36.0567 16.4895 39.0768 22.1228 39.0768 28.4624C39.0768 39.2531 30.3292 48.0007 19.5386 48.0007C18.2735 48.0007 17.0365 47.8804 15.8384 47.6508V40.6366C17.0093 40.9919 18.2515 41.1831 19.5386 41.1831C26.564 41.1831 32.2592 35.4878 32.2592 28.4624C32.2592 24.2827 30.2433 20.574 27.1308 18.2552C29.5618 17.7422 31.3825 15.6452 31.3825 13.1358C31.3825 13.0635 31.3806 12.9915 31.3776 12.9199Z"
+									fill="#0F4C90" />
+								<path fill-rule="evenodd" clip-rule="evenodd"
+									d="M13.9109 39.8738V47.1781C5.86333 44.7619 0 37.2968 0 28.4624C0 22.0216 3.1171 16.3089 7.92464 12.75C7.88712 12.9992 7.86736 13.254 7.86736 13.5133C7.86736 15.8491 9.44498 17.8276 11.6239 18.5039C8.69528 20.8342 6.81764 24.4289 6.81764 28.4624C6.81764 33.4675 9.7081 37.7973 13.9109 39.8738Z"
+									fill="#A4D8E6" />
+								<path fill-rule="evenodd" clip-rule="evenodd"
+									d="M19.0435 0C20.6051 0 21.8709 1.26589 21.8709 2.82733C21.8709 4.38891 20.6051 5.65473 19.0435 5.65473C18.8424 5.65473 18.6462 5.63353 18.4569 5.5936L15.6745 9.78135C16.6013 10.337 17.288 11.2518 17.5423 12.3334H22.8869C23.2982 10.918 24.6045 9.88344 26.1525 9.88344C28.0306 9.88344 29.5531 11.4059 29.5531 13.2839C29.5531 15.162 28.0306 16.6845 26.1525 16.6845C25.5735 16.6845 25.0283 16.5396 24.5511 16.2843L21.9211 20.2427C23.3493 21.1748 24.2933 22.7866 24.2933 24.6192C24.2933 27.5037 21.955 29.842 19.0706 29.842C16.1862 29.842 13.8478 27.5037 13.8478 24.6192C13.8478 21.7348 16.1862 19.3964 19.0706 19.3964C19.5499 19.3964 20.014 19.4613 20.4548 19.5822L23.355 15.2172C23.09 14.8345 22.9015 14.3948 22.8117 13.9202H17.5971C17.2841 15.8511 15.6094 17.3255 13.59 17.3255C11.3479 17.3255 9.53027 15.5079 9.53027 13.2657C9.53027 11.0235 11.3479 9.20588 13.59 9.20588C13.7725 9.20588 13.9521 9.21807 14.1281 9.24141L17.0547 4.83667C16.537 4.32426 16.2162 3.61332 16.2162 2.82733C16.2162 1.26589 17.4821 0 19.0435 0Z"
+									fill="#A4D8E6" />
+								<path
+									d="M95.4951 27.4926V16.125H99.98C100.842 16.125 101.577 16.2897 102.184 16.619C102.79 16.9446 103.253 17.3979 103.571 17.9789C103.893 18.5562 104.054 19.2222 104.054 19.9771C104.054 20.732 103.891 21.398 103.566 21.9753C103.24 22.5526 102.768 23.0022 102.15 23.3241C101.536 23.646 100.792 23.807 99.9189 23.807H97.0604V21.8809H99.5304C99.9929 21.8809 100.374 21.8014 100.674 21.6423C100.977 21.4795 101.203 21.2556 101.351 20.9707C101.503 20.682 101.579 20.3508 101.579 19.9771C101.579 19.5997 101.503 19.2703 101.351 18.9891C101.203 18.7042 100.977 18.484 100.674 18.3286C100.37 18.1695 99.9855 18.0899 99.5193 18.0899H97.8985V27.4926H95.4951Z"
+									fill="#434242" />
+								<path d="M84.6213 18.1066V16.125H93.9574V18.1066H90.4772V27.4926H88.1016V18.1066H84.6213Z"
+									fill="#434242" />
+								<path
+									d="M73.3923 27.4926V16.125H75.7957V20.8152H80.6747V16.125H83.0725V27.4926H80.6747V22.7968H75.7957V27.4926H73.3923Z"
+									fill="#434242" />
+								<path
+									d="M63.8223 27.4926V16.125H71.4821V18.1066H66.2257V20.8152H71.088V22.7968H66.2257V25.511H71.5043V27.4926H63.8223Z"
+									fill="#434242" />
+								<path
+									d="M62.3636 25.5721L62.2249 30.1791H59.938V27.4926H59.1388V25.5721H62.3636ZM51.4124 27.4926V16.125H53.7214V25.561H58.4505V16.125H60.7873V27.4926H51.4124Z"
+									fill="#434242" />
+								<path
+									d="M97.8611 44.3754V33.0078H102.346C103.208 33.0078 103.943 33.1725 104.55 33.5018C105.156 33.8274 105.619 34.2807 105.937 34.8617C106.259 35.439 106.42 36.105 106.42 36.8599C106.42 37.6148 106.257 38.2809 105.932 38.8581C105.606 39.4354 105.134 39.885 104.516 40.2069C103.902 40.5288 103.158 40.6898 102.285 40.6898H99.4263V38.7638H101.896C102.359 38.7638 102.74 38.6842 103.04 38.5251C103.343 38.3623 103.569 38.1384 103.717 37.8535C103.869 37.5648 103.945 37.2337 103.945 36.8599C103.945 36.4825 103.869 36.1531 103.717 35.8719C103.569 35.587 103.343 35.3668 103.04 35.2114C102.736 35.0523 102.352 34.9727 101.885 34.9727H100.264V44.3754H97.8611Z"
+									fill="#434242" />
+								<path
+									d="M93.6716 44.3754L90.0193 39.5297H89.1978V44.3754H86.7944V33.0078H89.1978V37.5482H89.6807L93.4551 33.0078H96.4469L92.012 38.2809L96.6523 44.3754H93.6716Z"
+									fill="#434242" />
+								<path
+									d="M85.0142 38.6908C85.0142 39.9304 84.7792 40.985 84.3092 41.8546C83.843 42.7242 83.2065 43.3884 82.3998 43.8473C81.5969 44.3024 80.694 44.53 79.6912 44.53C78.681 44.53 77.7744 44.3006 76.9714 43.8417C76.1684 43.3829 75.5338 42.7186 75.0675 41.849C74.6013 40.9795 74.3682 39.9267 74.3682 38.6908C74.3682 37.4511 74.6013 36.3965 75.0675 35.5269C75.5338 34.6574 76.1684 33.995 76.9714 33.5398C77.7744 33.081 78.681 32.8516 79.6912 32.8516C80.694 32.8516 81.5969 33.081 82.3998 33.5398C83.2065 33.995 83.843 34.6574 84.3092 35.5269C84.7792 36.3965 85.0142 37.4511 85.0142 38.6908ZM82.5775 38.6908C82.5775 37.8878 82.4572 37.2106 82.2167 36.6593C81.9799 36.1079 81.645 35.6898 81.212 35.4048C80.7791 35.1199 80.2721 34.9774 79.6912 34.9774C79.1102 34.9774 78.6033 35.1199 78.1703 35.4048C77.7374 35.6898 77.4006 36.1079 77.1601 36.6593C76.9233 37.2106 76.8049 37.8878 76.8049 38.6908C76.8049 39.4938 76.9233 40.1709 77.1601 40.7223C77.4006 41.2736 77.7374 41.6918 78.1703 41.9767C78.6033 42.2616 79.1102 42.4041 79.6912 42.4041C80.2721 42.4041 80.7791 42.2616 81.212 41.9767C81.645 41.6918 81.9799 41.2736 82.2167 40.7223C82.4572 40.1709 82.5775 39.4938 82.5775 38.6908Z"
+									fill="#434242" />
+								<path
+									d="M63.074 33.0078H65.4718V40.157H65.5662L70.4784 33.0078H72.5821V44.3754H70.1787V37.2207H70.0955L65.1554 44.3754H63.074V33.0078Z"
+									fill="#434242" />
+								<path
+									d="M51.4126 44.3754V33.0078H53.816V37.6981H58.695V33.0078H61.0928V44.3754H58.695V39.6796H53.816V44.3754H51.4126Z"
+									fill="#434242" />
+							</svg>
+						</a>
+					</div>
+					<div class="col-lg-5 d-none d-lg-block">
+						<nav>
+							<ul>
+								<li><a href="#">Наши продукты</a></li>
+								<li><a href="#">Помощь</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="col-lg-4 col-7">
+						<div class="d-flex align-items-center justify-content-end contacts_widget">
+							<div class="contacts_widget_item">
+								<a href="tel:+78001234567" class="medium">8 800 1234 567</a>
+								<div class="ls_text">Пн - Пт 9:00 - 18:00 </div>
+							</div>
+							<a href="#" class="btn border_btn sm_btn d-none d-lg-block">Личный кабинет</a>
+							<button class="menu_button d-lg-none d-block">
+								<span></span>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<aside>
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<nav>
+							<ul>
+								<li><a href="#">Наши продукты</a></li>
+								<li><a href="#">Помощь</a></li>
+								<li><a href="#">Личный кабинет</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</aside>
+		<main>
+			<div class="page_content">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<p id="breadcrumbs" class="mb-4">
+								<span><span><a href="#">Главная</a></span> &gt; <span>Пресс-центр</span></span>
+							</p>
+							<h1 class="mb-3 mb-lg-5">Пресс-центр</h1>
+						</div>
+					</div>
+				</div>
+				<div class="post_nav_wrapper mb-5">
+					<div class="container">
+						<div class="row">
+							<div class="col-12">
+								<div class="d-flex align-items-center justify-content-between">
+									<div class="d-flex align-items-center product_nav">
+										<a href="#" class="active">Категория 1</a>
+										<a href="#">Категория 2</a>
+										<a href="#">Категория 3</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row gy-4 mb-3 mb-5">
+						<div class="col-lg-4 col-md-6">
+							<a href="#" class="post_item">
+								<img src="images/post.jpg" class="mb-4" alt="" loading="lazy">
+								<time datetime="03.11.2023" class="blue_text">03.11.2023</time>
+								<div class="five mt-2">Компания АСпром стала победителем национальной премии «Золотой Меркурий»</div>
+							</a>
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<a href="#" class="post_item">
+								<img src="images/post.jpg" class="mb-4" alt="" loading="lazy">
+								<time datetime="03.11.2023" class="blue_text">03.11.2023</time>
+								<div class="five mt-2">Компания АСпром стала победителем национальной премии «Золотой Меркурий»</div>
+							</a>
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<a href="#" class="post_item">
+								<img src="images/post.jpg" class="mb-4" alt="" loading="lazy">
+								<time datetime="03.11.2023" class="blue_text">03.11.2023</time>
+								<div class="five mt-2">Компания АСпром стала победителем национальной премии «Золотой Меркурий»</div>
+							</a>
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<a href="#" class="post_item">
+								<img src="images/post.jpg" class="mb-4" alt="" loading="lazy">
+								<time datetime="03.11.2023" class="blue_text">03.11.2023</time>
+								<div class="five mt-2">Компания АСпром стала победителем национальной премии «Золотой Меркурий»</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer>
+			<div class="container">
+				<div class="row justify-content-between gy-4">
+					<div class="col-lg col-12">
+						<a href="#" class="logo mb-3">
+							<img src="images/logo_white.svg" alt="" loading="lazy">
+						</a>
+						<div class="mt-5 d-none d-lg-block">(с) 2024. Центр НИОКР</div>
+					</div>
+					<div class="col-lg col-6">
+						<div class="medium">Каталог</div>
+						<nav>
+							<ul>
+								<li><a href="#">Продукция 1</a></li>
+								<li><a href="#">Продукция 2</a></li>
+								<li><a href="#">Продукция 3</a></li>
+								<li><a href="#">Продукция 4</a></li>
+								<li><a href="#">Продукция 5</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="col-lg col-6">
+						<div class="medium">Информация</div>
+						<nav>
+							<ul>
+								<li><a href="#">О нас</a></li>
+								<li><a href="#">Помощь</a></li>
+								<li><a href="#">Документы</a></li>
+								<li><a href="#">Пресс-центр</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="col-lg col-6">
+						<div class="medium">Личный кабинет</div>
+						<nav>
+							<ul>
+								<li><a href="#">Войти в кабинет</a></li>
+								<li><a href="#">История заказов</a></li>
+								<li><a href="#">Документы</a></li>
+								<li><a href="#">Мой профиль</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="col-lg col-6">
+						<div class="medium">Контакты</div>
+						<nav>
+							<ul>
+								<li><a href="#">Поддержка клиентов</a></li>
+								<li><a href="#">Для СМИ</a></li>
+								<li><a href="#">Поставщикам</a></li>
+								<li><a href="#">Все контакты</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+			<div class="copyrights d-lg-none d-block">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<div style="font-size: 14px;">(с) 2024. Центр НИОКР</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+</body>
+
+</html>
