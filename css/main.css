@@ -974,3 +974,13 @@ section .form-group textarea:focus~label, section .form-group textarea:not(:plac
 .col-12{
 	position: relative;
 }
+.content_wrapper{
+	max-width: 860px;
+	margin: auto;
+}
+.content_wrapper img{
+	width: 100%;
+	object-fit: cover;
+	max-width: 100%;
+	border-radius: 16px;
+}
